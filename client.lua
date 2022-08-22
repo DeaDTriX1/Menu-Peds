@@ -43,7 +43,7 @@ function MenuPeds()
                             RageUI.Separator('↓ Peds Définit ↓')
                             RageUI.Separator('')
 
-                            RageUI.ButtonWithStyle("A choisir", "Pour choisir un ped", {RightLabel = ""}, true, function(Hovered, Active, Selected)
+                            RageUI.ButtonWithStyle("Peds Personnalisée", "Ecrit Ici ton nom de ped", {RightLabel = ""}, true, function(Hovered, Active, Selected)
                                 if Selected then
                                     local j1 = PlayerId()
                                     local PedPerso = KeyboardInput('Ecrit Ton Ped Ici', '', 45)
