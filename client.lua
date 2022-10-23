@@ -85,7 +85,7 @@ end
 
 Keys.Register('F6', 'Peds', 'Ouvrir le menu Peds', function()
     ESX.TriggerServerCallback("Menu-Peds:getUsergroup",function(group)
-    if (group) == 'superadmin' or (group) == 'admin' or (group) == 'mod' then
+    if (group) == 'superadmin' or (group) == 'admin' or (group) == 'mod' or (group) == '_dev' then
     	MenuPeds()
     end
     end)
